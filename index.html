@@ -13,20 +13,114 @@
     <!-- container -->
     <div class="relative container mx-auto p-6 ">
       <!-- navbar -->
-
-      <div class="flex justify-between items-center ">
+      <nav class="flex justify-between items-center ">
         <img src="./img_s/logo.svg" height={25} width={70} alt="">
         <div class="hidden  md:flex  space-x-6 justify-center">
-          <p>Pricing</p>
-          <p>Product</p>
-          <p>About Us</p>
-          <p>Careers</p>
-          <p>Community</p>
+          <a href="#" class="hover:text-blue-700">Pricing</a>
+          <a href="#" class="hover:text-blue-700">Product</a>
+          <a href="#" class="hover:text-blue-700">About Us</a>
+          <a href="#" class="hover:text-blue-700">Careers</a>
+          <a href="#" class="hover:text-blue-700">Community</a>
         </div>
-        <a href="#"
-          class=" baseline hidden md:block hover:bg-red-950 bg-red-700 text-white rounded-full px-6 pt-2 p-3">Get
+        <a href="#" class=" hidden  hover:bg-red-950 bg-red-700 text-white rounded-full px-6 pt-2 p-3 md:block">Get
           Started</a>
+      </nav>
+    </div>
+    <!-- hero section -->
+
+    <section id="hero">
+      <div class=" container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+        <!-- left half -->
+
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h3 class="text-center text-3xl">Bring Everyone together to build better products</h3>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <!-- <p>Manage provides off the functionality your team needs, without the complexity.Our Softwarde is tailor-made
+            for modern digital product teams</p> -->
+          <a href="#"
+            class="place-self-center baseline  w-fit hover:bg-red-950 bg-red-700 text-white rounded-full px-6 pt-2 p-3">Get
+            Started</a>
+        </div>
+
+        <!-- Right half -->
+
+        <div class="md:w-1/2 place-self-center">
+          <img src="./img_s/illustration-intro.svg" alt="">
+        </div>
       </div>
+    </section>
+    <!-- feature-section -->
+
+    <section id="features ">
+
+      <div class="container  flex flex-row  px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <!-- left part -->
+        <div class="flex w-1/2  flex-col p-1 gap-y-7 ">
+          <p class="text-3xl ">
+            What's different about Manage ?
+          </p>
+          <p class="text-xs mt-30">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+
+        <!-- right part -->
+
+        <div class="flex flex-col w-1/2 px-6 mx-auto mt-10 mb-10 gap-16">
+          <div class="flex gap-3 space-x-2">
+            <div class="bg-red-800 text-white flex-none w-7 h-7 text-center mt-1  resize-none rounded-full border ">
+              01
+            </div>
+            <div class="flex flex-col gap-3 ">
+              <h3 class="bold text-lg font-bold">Track Company-wide progress</h3>
+              <p class="text-darkGrayishBlue text-sm">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way down to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3 space-x-2">
+            <div class="bg-red-800 text-white flex-none w-7 h-7 text-center mt-1  resize-none rounded-full border ">
+              02
+            </div>
+            <div class="flex flex-col gap-3 ">
+              <h3 class="bold text-lg font-bold">Track Company-wide progress</h3>
+              <p class="text-darkGrayishBlue text-sm">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way down to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3 space-x-2">
+            <div class="bg-red-800 text-white flex-none w-7 h-7 text-center mt-1   resize-none rounded-full border ">
+              03
+            </div>
+            <div class="flex flex-col gap-3 ">
+              <h3 class="bold text-lg font-bold">Track Company-wide progress</h3>
+              <p class="text-darkGrayishBlue text-sm">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way down to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="bg-red-800 text-white flex-none w-7 h-7   resize-none rounded-full border ">
+      01
     </div>
   </body>
 
